@@ -119,3 +119,23 @@ GitHub: [https://github.com/zinkxx](https://github.com/zinkxx)
 
 Bu proje **MIT Lisansı** ile lisanslanmıştır.
 Detaylar için `LICENSE` dosyasına bakınız.
+
+---
+
+## ⭐ Support the Project
+
+If you find **Zinkx Dev Assistant** useful:
+
+- ⭐ Star the repository
+- 🍴 Fork it and improve
+- 🐞 Open issues for bugs or ideas
+- 💬 Share feedback and suggestions
+
+Your support helps the project grow 🚀
+
+## 🖼️ Screenshots
+
+![Dashboard](screenshots/dashboard.png)
+![Scan Project](screenshots/scan-project.png)
+![Reports](screenshots/reports.png)
+![Settings](screenshots/settings.png)
