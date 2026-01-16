@@ -223,9 +223,25 @@ class MainWindow(QMainWindow):
     # Pages
     # ==================================================
     def build_dashboard(self):
-        l = QVBoxLayout(self.page_dashboard)
+        # ==================================================
+        # Root layout (dashboard)
+        # ==================================================
+        page_layout = QVBoxLayout(self.page_dashboard)
+        page_layout.setContentsMargins(0, 0, 0, 0)
+        page_layout.setSpacing(0)
+
+        scroll = QScrollArea(self.page_dashboard)
+        scroll.setWidgetResizable(True)
+        scroll.setFrameShape(QScrollArea.NoFrame)
+        page_layout.addWidget(scroll)
+
+        content = QWidget(scroll)
+        scroll.setWidget(content)
+
+        l = QVBoxLayout(content)
         l.setContentsMargins(32, 32, 32, 32)
         l.setSpacing(20)
+
 
         # --------------------------------------------------
         # Header
